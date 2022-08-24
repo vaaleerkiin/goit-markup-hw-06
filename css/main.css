@@ -222,17 +222,17 @@ body {
   margin: -1px;
 }
 
-.container > .dignity-list {
+.container > .benefits-list {
   display: flex;
   gap: 30px;
   align-items: center;
 }
 
-.dignity-list > li {
+.benefits-list > li {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.dignity-container-icon {
+.benefits-container-icon {
   background: var(--secendory-background);
   border-radius: 4px;
   min-height: 120px;
@@ -241,7 +241,7 @@ body {
   align-items: center;
 }
 
-.dignity-title {
+.benefits-title {
   margin-top: 30px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -252,7 +252,7 @@ body {
   color: var(--secendory-color-text);
 }
 
-.dignity-item {
+.benefits-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -599,7 +599,8 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-exit:hover {
+.modal-exit:hover,
+.modal-exit:focus {
   fill: var(--color-accent);
 }
 
